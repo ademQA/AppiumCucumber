@@ -12,9 +12,6 @@ public class browserStepDefinitions {
         Driver.getAndroidDriver().get("https://www.hepsiburada.com");
     }
 
-    @Given("Kullanici arama kutusuna nutella degerini gonderir")
-    public void kullanici_arama_kutusuna_nutella_degerini_gonderir() {
-      hepsiBurada.hepsiBuradaAramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
-    }
+
 
 }
