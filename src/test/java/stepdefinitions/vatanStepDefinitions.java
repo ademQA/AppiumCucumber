@@ -22,13 +22,13 @@ public class vatanStepDefinitions {
     @Given("Sol ust koseden uc cizgili menuye tiklayiniz")
     public void sol_ust_koseden_uc_cizgili_menuye_tiklayiniz() throws InterruptedException {
         vatanPage.ucCizgiliMenu.click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
     }
 
     @Given("Ust menuden hazir sistem butonunu tiklayiniz")
     public void ust_menuden_hazir_sistem_butonunu_tiklayiniz() throws InterruptedException {
         actions.moveToElement(vatanPage.hazirSistem).click().perform();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
     }
 

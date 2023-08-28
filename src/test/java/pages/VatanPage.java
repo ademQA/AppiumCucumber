@@ -16,7 +16,7 @@ public class VatanPage {
     @FindBy(xpath = "//*[text()='Allow']")
     public WebElement cookies;
 
-    @FindBy(xpath = "(//span[text()='Hazır Sistem'])[2]")
+    @FindBy(xpath = "(//*[@class='topbar-menu__link'])[14]")
     public WebElement hazirSistem;
 
 }
